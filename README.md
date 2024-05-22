@@ -15,21 +15,23 @@ This project contains automated tests for validating the functionality of the Sa
 - [Assumptions and Limitations](#assumptions-and-limitations)
 
 ## Project Structure
+The project is organized as follows:
+```
 ├── src/
-│ │ ├── PageObjects/
-│ │ │ ├── LoginPage.ts
-│ │ │ └── ProductsPage.ts
-│ ├── test/
-│ │ ├── data/
-│ │ │ └── testData.json
-│ │ ├── specs/
-│ │ │ ├──authentication.spec.ts
-│ │   └── products.spec.ts
+│   ├── PageObjects/
+│   │   ├── LoginPage.ts
+│   │   └── ProductsPage.ts
+│   ├── test/
+│   │   ├── data/
+│   │   │   └── testData.json
+│   │   ├── specs/
+│   │   │   ├── authentication.spec.ts
+│   │   │   └── products.spec.ts
 ├── tsconfig.json
 ├── wdio.conf.ts
 ├── package.json
 └── README.md
-
+```
 
 ## Setup
 1. **Install Node.js**:
